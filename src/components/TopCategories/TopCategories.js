@@ -26,7 +26,7 @@ export default function TopCategories() {
                 >
                   <div className="item item-product-cat slick-slide">
                     <div className="item-product-cat-content">
-                      <a href="#">
+                      <a href="/coming-soon">
                         <div className="item-image animation-horizontal">
                           <img
                             width="258"
@@ -38,7 +38,7 @@ export default function TopCategories() {
                       </a>
                       <div className="product-cat-content-info">
                         <h2 className="item-title">
-                          <a href="#">Necklaces</a>
+                          <a href="/coming-soon">Necklaces</a>
                         </h2>
                       </div>
                     </div>
@@ -46,7 +46,7 @@ export default function TopCategories() {
 
                   <div className="item item-product-cat slick-slide">
                     <div className="item-product-cat-content">
-                      <a href="#">
+                      <a href="/coming-soon">
                         <div className="item-image animation-horizontal">
                           <img
                             width="258"
@@ -58,7 +58,7 @@ export default function TopCategories() {
                       </a>
                       <div className="product-cat-content-info">
                         <h2 className="item-title">
-                          <a href="#">Earrings</a>
+                          <a href="/coming-soon">Earrings</a>
                         </h2>
                       </div>
                     </div>
@@ -66,7 +66,7 @@ export default function TopCategories() {
                   
                   <div className="item item-product-cat slick-slide">
                     <div className="item-product-cat-content">
-                      <a href="#">
+                      <a href="/coming-soon">
                         <div className="item-image animation-horizontal">
                           <img
                             width="258"
@@ -78,7 +78,7 @@ export default function TopCategories() {
                       </a>
                       <div className="product-cat-content-info">
                         <h2 className="item-title">
-                          <a href="#">Diamond Ring</a>
+                          <a href="/coming-soon">Diamond Ring</a>
                         </h2>
                       </div>
                     </div>
@@ -86,7 +86,7 @@ export default function TopCategories() {
 
                   <div className="item item-product-cat slick-slide">
                     <div className="item-product-cat-content">
-                      <a href="#">
+                      <a href="/coming-soon">
                         <div className="item-image animation-horizontal">
                           <img
                             width="258"
@@ -98,7 +98,7 @@ export default function TopCategories() {
                       </a>
                       <div className="product-cat-content-info">
                         <h2 className="item-title">
-                          <a href="#">Pendants</a>
+                          <a href="/coming-soon">Pendants</a>
                         </h2>
                       </div>
                     </div>
@@ -106,7 +106,7 @@ export default function TopCategories() {
 
                   <div className="item item-product-cat slick-slide">
                     <div className="item-product-cat-content">
-                      <a href="#">
+                      <a href="/coming-soon">
                         <div className="item-image animation-horizontal">
                           <img
                             width="258"
@@ -118,7 +118,7 @@ export default function TopCategories() {
                       </a>
                       <div className="product-cat-content-info">
                         <h2 className="item-title">
-                          <a href="#">Gold Rings</a>
+                          <a href="/coming-soon">Gold Rings</a>
                         </h2>
                       </div>
                     </div>

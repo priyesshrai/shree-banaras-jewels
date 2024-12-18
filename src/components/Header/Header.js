@@ -34,7 +34,7 @@ export default function Header() {
                     <div className="remove-cart-shadow"></div>
                     <a
                       className="dropdown-toggle cart-icon"
-                      href="#"
+                      href="/coming-soon"
                       role="button"
                       data-toggle="dropdown"
                       aria-haspopup="true"
@@ -64,7 +64,7 @@ export default function Header() {
                         <ul className="cart-list ">
                           <li className="mini-cart-item">
                             <a
-                              href="#"
+                              href="/coming-soon"
                               className="remove"
                               title="Remove this item"
                             >
@@ -92,7 +92,7 @@ export default function Header() {
                           </li>
                           <li className="mini-cart-item">
                             <a
-                              href="#"
+                              href="/coming-soon"
                               className="remove"
                               title="Remove this item"
                             >
@@ -223,79 +223,79 @@ export default function Header() {
                           </a>
                         </li> */}
                         <li className="level-0 menu-item menu-item-has-children ">
-                          <a href="#">
+                          <a href="/coming-soon">
                             <span className="menu-item-text">Jewellery</span>
                           </a>
                           <ul className="sub-menu">
                             <li>
-                              <a href="#">
+                              <a href="/coming-soon">
                                 <span className="menu-item-text">
                                   All Jewellery
                                 </span>
                               </a>
                             </li>
                             <li>
-                              <a href="#">
+                              <a href="/coming-soon">
                                 <span className="menu-item-text">Earrings</span>
                               </a>
                             </li>
                             <li>
-                              <a href="#l">
+                              <a href="/coming-soon">
                                 <span className="menu-item-text">Pendants</span>
                               </a>
                             </li>
                             <li>
-                              <a href="#">
+                              <a href="/coming-soon">
                                 <span className="menu-item-text">
                                   Finger Rings
                                 </span>
                               </a>
                             </li>
                             <li>
-                              <a href="#">
+                              <a href="/coming-soon">
                                 <span className="menu-item-text">
                                   Mangalsutra
                                 </span>
                               </a>
                             </li>
                             <li>
-                              <a href="#">
+                              <a href="/coming-soon">
                                 <span className="menu-item-text">Chains</span>
                               </a>
                             </li>
                             <li>
-                              <a href="#">
+                              <a href="/coming-soon">
                                 <span className="menu-item-text">Nose Pin</span>
                               </a>
                             </li>
                             <li>
-                              <a href="#">
+                              <a href="/coming-soon">
                                 <span className="menu-item-text">
                                   Necklaces
                                 </span>
                               </a>
                             </li>
                             <li>
-                              <a href="#">
+                              <a href="/coming-soon">
                                 <span className="menu-item-text">
                                   Necklace Set
                                 </span>
                               </a>
                             </li>
                             <li>
-                              <a href="#">
+                              <a href="/coming-soon">
                                 <span className="menu-item-text">Bangles</span>
                               </a>
                             </li>
                             <li>
-                              <a href="#">
+                              <a href="/coming-soon">
                                 <span className="menu-item-text">
                                   Bracelets
                                 </span>
                               </a>
                             </li>
                             <li>
-                              <a href="#">
+                              <a href="/coming-soon">
                                 <span className="menu-item-text">
                                   Pendants & Earring Set
                                 </span>
@@ -305,7 +305,7 @@ export default function Header() {
                         </li>
 
                         <li className="level-0 menu-item menu-item-has-children">
-                          <a href="#">
+                          <a href="/coming-soon">
                             <span className="menu-item-text">Diamond</span>
                           </a>
                           <ul className="sub-menu">
@@ -354,48 +354,48 @@ export default function Header() {
                               </ul>
                             </li> */}
                             <li>
-                              <a href="#">
+                              <a href="/coming-soon">
                                 <span className="menu-item-text">Rings</span>
                               </a>
                             </li>
                             <li>
-                              <a href="#">
+                              <a href="/coming-soon">
                                 <span className="menu-item-text">Earrings</span>
                               </a>
                             </li>
                             <li>
-                              <a href="#">
+                              <a href="/coming-soon">
                                 <span className="menu-item-text">Pendants</span>
                               </a>
                             </li>
                             <li>
-                              <a href="#">
+                              <a href="/coming-soon">
                                 <span className="menu-item-text">
                                   Nose pins
                                 </span>
                               </a>
                             </li>
                             <li>
-                              <a href="#">
+                              <a href="/coming-soon">
                                 <span className="menu-item-text">
                                   Necklaces
                                 </span>
                               </a>
                             </li>
                             <li>
-                              <a href="#">
+                              <a href="/coming-soon">
                                 <span className="menu-item-text">Bangles</span>
                               </a>
                             </li>
                             <li>
-                              <a href="#">
+                              <a href="/coming-soon">
                                 <span className="menu-item-text">
                                   Bracelets
                                 </span>
                               </a>
                             </li>
                             <li>
-                              <a href="#">
+                              <a href="/coming-soon">
                                 <span className="menu-item-text">
                                   Mangalsutras
                                 </span>
@@ -405,7 +405,7 @@ export default function Header() {
                         </li>
 
                         <li className="level-0 menu-item menu-item-has-children">
-                          <a href="#">
+                          <a href="/coming-soon">
                             <span className="menu-item-text">Gold</span>
                           </a>
                           <ul className="sub-menu">
@@ -454,53 +454,53 @@ export default function Header() {
                               </ul>
                             </li> */}
                             <li>
-                              <a href="#">
+                              <a href="/coming-soon">
                                 <span className="menu-item-text">Rings</span>
                               </a>
                             </li>
                             <li>
-                              <a href="#">
+                              <a href="/coming-soon">
                                 <span className="menu-item-text">Earrings</span>
                               </a>
                             </li>
                             <li>
-                              <a href="#">
+                              <a href="/coming-soon">
                                 <span className="menu-item-text">Pendants</span>
                               </a>
                             </li>
                             <li>
-                              <a href="#">
+                              <a href="/coming-soon">
                                 <span className="menu-item-text">Chains </span>
                               </a>
                             </li>
                             <li>
-                              <a href="#">
+                              <a href="/coming-soon">
                                 <span className="menu-item-text">
                                   Nose pins
                                 </span>
                               </a>
                             </li>
                             <li>
-                              <a href="#">
+                              <a href="/coming-soon">
                                 <span className="menu-item-text">
                                   Necklaces
                                 </span>
                               </a>
                             </li>
                             <li>
-                              <a href="#">
+                              <a href="/coming-soon">
                                 <span className="menu-item-text">Bangles</span>
                               </a>
                             </li>
                             <li>
-                              <a href="#">
+                              <a href="/coming-soon">
                                 <span className="menu-item-text">
                                   Bracelets
                                 </span>
                               </a>
                             </li>
                             <li>
-                              <a href="#">
+                              <a href="/coming-soon">
                                 <span className="menu-item-text">
                                   Mangalsutras
                                 </span>
@@ -510,54 +510,54 @@ export default function Header() {
                         </li>
 
                         <li className="level-0 menu-item menu-item-has-children">
-                          <a href="#">
+                          <a href="/coming-soon">
                             <span className="menu-item-text">Gemstone</span>
                           </a>
                           <ul className="sub-menu">
                             <li>
-                              <a href="#">
+                              <a href="/coming-soon">
                                 <span className="menu-item-text">Rings</span>
                               </a>
                             </li>
                             <li>
-                              <a href="#">
+                              <a href="/coming-soon">
                                 <span className="menu-item-text">Earrings</span>
                               </a>
                             </li>
                             <li>
-                              <a href="#">
+                              <a href="/coming-soon">
                                 <span className="menu-item-text">Pendants</span>
                               </a>
                             </li>
 
                             <li>
-                              <a href="#">
+                              <a href="/coming-soon">
                                 <span className="menu-item-text">
                                   Necklaces
                                 </span>
                               </a>
                             </li>
                             <li>
-                              <a href="#">
+                              <a href="/coming-soon">
                                 <span className="menu-item-text">Bangles</span>
                               </a>
                             </li>
                             <li>
-                              <a href="#">
+                              <a href="/coming-soon">
                                 <span className="menu-item-text">
                                   Bracelets
                                 </span>
                               </a>
                             </li>
                             <li>
-                              <a href="#">
+                              <a href="/coming-soon">
                                 <span className="menu-item-text">
                                   Nose pins
                                 </span>
                               </a>
                             </li>
                             <li>
-                              <a href="#">
+                              <a href="/coming-soon">
                                 <span className="menu-item-text">Anklet</span>
                               </a>
                             </li>
@@ -565,34 +565,34 @@ export default function Header() {
                         </li>
 
                         <li className="level-0 menu-item menu-item-has-children">
-                          <a href="#">
+                          <a href="/coming-soon">
                             <span className="menu-item-text">Platinum</span>
                           </a>
                           <ul className="sub-menu">
                             <li>
-                              <a href="#">
+                              <a href="/coming-soon">
                                 <span className="menu-item-text">Rings</span>
                               </a>
                             </li>
                             <li>
-                              <a href="#">
+                              <a href="/coming-soon">
                                 <span className="menu-item-text">Earrings</span>
                               </a>
                             </li>
                             <li>
-                              <a href="#">
+                              <a href="/coming-soon">
                                 <span className="menu-item-text">Chains</span>
                               </a>
                             </li>
                             <li>
-                              <a href="#">
+                              <a href="/coming-soon">
                                 <span className="menu-item-text">
                                   Bracelets
                                 </span>
                               </a>
                             </li>
                             <li>
-                              <a href="#">
+                              <a href="/coming-soon">
                                 <span className="menu-item-text">Mens</span>
                               </a>
                             </li>
@@ -600,44 +600,44 @@ export default function Header() {
                         </li>
 
                         <li className="level-0 menu-item menu-item-has-children">
-                          <a href="#">
+                          <a href="/coming-soon">
                             <span className="menu-item-text">Silver</span>
                           </a>
                           <ul className="sub-menu">
                             <li className="level-1 menu-item menu-item-has-children">
-                              <a href="#">
+                              <a href="/coming-soon">
                                 <span className="menu-item-text">
                                   Coins & Bars
                                 </span>
                               </a>
                               <ul className="sub-menu">
                                 <li>
-                                  <a href="#">
+                                  <a href="/coming-soon">
                                     <span className="menu-item-text">20g</span>
                                   </a>
                                 </li>
                                 <li>
-                                  <a href="#">
+                                  <a href="/coming-soon">
                                     <span className="menu-item-text">50g</span>
                                   </a>
                                 </li>
                                 <li>
-                                  <a href="#">
+                                  <a href="/coming-soon">
                                     <span className="menu-item-text">100g</span>
                                   </a>
                                 </li>
                                 <li>
-                                  <a href="#">
+                                  <a href="/coming-soon">
                                     <span className="menu-item-text">250g</span>
                                   </a>
                                 </li>
                                 <li>
-                                  <a href="#">
+                                  <a href="/coming-soon">
                                     <span className="menu-item-text">500g</span>
                                   </a>
                                 </li>
                                 <li>
-                                  <a href="#">
+                                  <a href="/coming-soon">
                                     <span className="menu-item-text">
                                       1000g
                                     </span>
@@ -812,7 +812,7 @@ export default function Header() {
                         </li> */}
 
                         {/* <li className="level-0 menu-item menu-item-has-children">
-                          <a href="#">
+                          <a href="/coming-soon">
                             <span className="menu-item-text">Pages</span>
                           </a>
                           <ul className="sub-menu">
@@ -1021,7 +1021,7 @@ export default function Header() {
                         <div className="remove-cart-shadow"></div>
                         <a
                           className="dropdown-toggle cart-icon"
-                          href="#"
+                          href="/coming-soon"
                           role="button"
                           data-toggle="dropdown"
                           aria-haspopup="true"
@@ -1057,7 +1057,7 @@ export default function Header() {
                             <ul className="cart-list ">
                               <li className="mini-cart-item">
                                 <a
-                                  href="#"
+                                  href="/coming-soon"
                                   className="remove"
                                   title="Remove this item"
                                 >
@@ -1085,7 +1085,7 @@ export default function Header() {
                               </li>
                               <li className="mini-cart-item">
                                 <a
-                                  href="#"
+                                  href="/coming-soon"
                                   className="remove"
                                   title="Remove this item"
                                 >
