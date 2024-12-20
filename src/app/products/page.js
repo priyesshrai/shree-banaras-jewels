@@ -1,5 +1,5 @@
 "use client";
-import Link from "next/link";
+// import a from "next/a";
 import React, { useState } from "react";
 
 export default function page() {
@@ -30,10 +30,10 @@ export default function page() {
               <div className="products-topbar-left">
                 <nav className="toolbox sticky-toolbox sticky-content fix-top">
                   <div className="toolbox-left">
-                    <Link href="#" className="filter-btn" onClick={handleFilterMenu}>
+                    <a href="#" className="filter-btn" onClick={handleFilterMenu}>
                       <i className="hgi-stroke hgi-left-to-right-list-bullet lst" />
                       <span>Filters</span>
-                    </Link>
+                    </a>
                   </div>
                 </nav>
               </div>
@@ -51,22 +51,22 @@ export default function page() {
                     x-placement="bottom-start"
                   >
                     <li className="active">
-                      <Link href="#">Default sorting</Link>
+                      <a href="#">Default sorting</a>
                     </li>
                     <li>
-                      <Link href="#">Sort by popularity</Link>
+                      <a href="#">Sort by popularity</a>
                     </li>
                     <li>
-                      <Link href="#">Sort by average rating</Link>
+                      <a href="#">Sort by average rating</a>
                     </li>
                     <li>
-                      <Link href="#">Sort by latest</Link>
+                      <a href="#">Sort by latest</a>
                     </li>
                     <li>
-                      <Link href="#">Sort by price: low to high</Link>
+                      <a href="#">Sort by price: low to high</a>
                     </li>
                     <li>
-                      <Link href="#">Sort by price: high to low</Link>
+                      <a href="#">Sort by price: high to low</a>
                     </li>
                   </ul>
                 </div>
@@ -80,7 +80,7 @@ export default function page() {
             <div className="product-cart-wrap mb-30">
               <div className="product-img-action-wrap">
                 <div className="product-img product-img-zoom">
-                  <Link href="#">
+                  <a href="#">
                     <img
                       className="default-img"
                       src="/media/product/1-2.jpg"
@@ -91,7 +91,7 @@ export default function page() {
                       src="/media/product/1-2.jpg"
                       alt=""
                     />
-                  </Link>
+                  </a>
                 </div>
                 <div className="product-badges product-badges-position product-badges-mrg">
                   <span className="hot">Hot</span>
@@ -99,10 +99,10 @@ export default function page() {
               </div>
               <div className="product-content-wrap">
                 <div className="product-category">
-                  <Link href="shop-grid-right">Bangles</Link>
+                  <a href="shop-grid-right">Bangles</a>
                 </div>
                 <h2 style={{ marginTop: "5px" }}>
-                  <Link href="#">Golden Bangles</Link>
+                  <a href="#">Golden Bangles</a>
                 </h2>
                 <div className="product-rate-cover">
                   <div className="product-rate d-inline-block">
@@ -114,7 +114,7 @@ export default function page() {
                 </div>
                 <div>
                   <span className="font-small text-muted">
-                    By <Link href="vendor-details-1">Shree Banaras Jewels</Link>
+                    By <a href="vendor-details-1">Shree Banaras Jewels</a>
                   </span>
                 </div>
                 <div className="product-card-bottom">
@@ -123,9 +123,9 @@ export default function page() {
                     <span className="old-price">$25.8</span>
                   </div>
                   <div className="add-cart">
-                    <Link className="add" href="products/Shree-Banaras-Jewels">
+                    <a className="add" href="products/Shree-Banaras-Jewels">
                       <i className="fi-rs-shopping-cart mr-5"></i>Add
-                    </Link>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -138,7 +138,7 @@ export default function page() {
             <div className="product-cart-wrap mb-30">
               <div className="product-img-action-wrap">
                 <div className="product-img product-img-zoom">
-                  <Link href="#">
+                  <a href="#">
                     <img
                       className="default-img"
                       src="/media/product/1-2.jpg"
@@ -149,7 +149,7 @@ export default function page() {
                       src="/media/product/1-2.jpg"
                       alt=""
                     />
-                  </Link>
+                  </a>
                 </div>
                 <div className="product-badges product-badges-position product-badges-mrg">
                   <span className="sale">Sale</span>
@@ -157,10 +157,10 @@ export default function page() {
               </div>
               <div className="product-content-wrap">
                 <div className="product-category">
-                  <Link href="shop-grid-right">Bangles</Link>
+                  <a href="shop-grid-right">Bangles</a>
                 </div>
                 <h2 style={{ marginTop: "5px" }}>
-                  <Link href="#">Golden Bangles</Link>
+                  <a href="#">Golden Bangles</a>
                 </h2>
                 <div className="product-rate-cover">
                   <div className="product-rate d-inline-block">
@@ -172,7 +172,7 @@ export default function page() {
                 </div>
                 <div>
                   <span className="font-small text-muted">
-                    By <Link href="vendor-details-1">Shree Banaras Jewels</Link>
+                    By <a href="vendor-details-1">Shree Banaras Jewels</a>
                   </span>
                 </div>
                 <div className="product-card-bottom">
@@ -181,9 +181,9 @@ export default function page() {
                     <span className="old-price">$25.8</span>
                   </div>
                   <div className="add-cart">
-                    <Link className="add" href="shop-cart">
+                    <a className="add" href="shop-cart">
                       <i className="fi-rs-shopping-cart mr-5"></i>Add
-                    </Link>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -196,7 +196,7 @@ export default function page() {
             <div className="product-cart-wrap mb-30">
               <div className="product-img-action-wrap">
                 <div className="product-img product-img-zoom">
-                  <Link href="#">
+                  <a href="#">
                     <img
                       className="default-img"
                       src="/media/product/1-2.jpg"
@@ -207,7 +207,7 @@ export default function page() {
                       src="/media/product/1-2.jpg"
                       alt=""
                     />
-                  </Link>
+                  </a>
                 </div>
                 <div className="product-badges product-badges-position product-badges-mrg">
                   <span className="best">20%</span>
@@ -215,10 +215,10 @@ export default function page() {
               </div>
               <div className="product-content-wrap">
                 <div className="product-category">
-                  <Link href="shop-grid-right">Bangles</Link>
+                  <a href="shop-grid-right">Bangles</a>
                 </div>
                 <h2 style={{ marginTop: "5px" }}>
-                  <Link href="#">Golden Bangles</Link>
+                  <a href="#">Golden Bangles</a>
                 </h2>
                 <div className="product-rate-cover">
                   <div className="product-rate d-inline-block">
@@ -230,7 +230,7 @@ export default function page() {
                 </div>
                 <div>
                   <span className="font-small text-muted">
-                    By <Link href="vendor-details-1">Shree Banaras Jewels</Link>
+                    By <a href="vendor-details-1">Shree Banaras Jewels</a>
                   </span>
                 </div>
                 <div className="product-card-bottom">
@@ -239,9 +239,9 @@ export default function page() {
                     <span className="old-price">$25.8</span>
                   </div>
                   <div className="add-cart">
-                    <Link className="add" href="shop-cart">
+                    <a className="add" href="shop-cart">
                       <i className="fi-rs-shopping-cart mr-5"></i>Add
-                    </Link>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -254,7 +254,7 @@ export default function page() {
             <div className="product-cart-wrap mb-30">
               <div className="product-img-action-wrap">
                 <div className="product-img product-img-zoom">
-                  <Link href="#">
+                  <a href="#">
                     <img
                       className="default-img"
                       src="/media/product/1-2.jpg"
@@ -265,7 +265,7 @@ export default function page() {
                       src="/media/product/1-2.jpg"
                       alt=""
                     />
-                  </Link>
+                  </a>
                 </div>
                 <div className="product-badges product-badges-position product-badges-mrg">
                   <span className="best">20%</span>
@@ -273,10 +273,10 @@ export default function page() {
               </div>
               <div className="product-content-wrap">
                 <div className="product-category">
-                  <Link href="shop-grid-right">Bangles</Link>
+                  <a href="shop-grid-right">Bangles</a>
                 </div>
                 <h2 style={{ marginTop: "5px" }}>
-                  <Link href="#">Golden Bangles</Link>
+                  <a href="#">Golden Bangles</a>
                 </h2>
                 <div className="product-rate-cover">
                   <div className="product-rate d-inline-block">
@@ -288,7 +288,7 @@ export default function page() {
                 </div>
                 <div>
                   <span className="font-small text-muted">
-                    By <Link href="vendor-details-1">Shree Banaras Jewels</Link>
+                    By <a href="vendor-details-1">Shree Banaras Jewels</a>
                   </span>
                 </div>
                 <div className="product-card-bottom">
@@ -297,9 +297,9 @@ export default function page() {
                     <span className="old-price">$25.8</span>
                   </div>
                   <div className="add-cart">
-                    <Link className="add" href="shop-cart">
+                    <a className="add" href="shop-cart">
                       <i className="fi-rs-shopping-cart mr-5"></i>Add
-                    </Link>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -312,7 +312,7 @@ export default function page() {
             <div className="product-cart-wrap mb-30">
               <div className="product-img-action-wrap">
                 <div className="product-img product-img-zoom">
-                  <Link href="#">
+                  <a href="#">
                     <img
                       className="default-img"
                       src="/media/product/1-2.jpg"
@@ -323,7 +323,7 @@ export default function page() {
                       src="/media/product/1-2.jpg"
                       alt=""
                     />
-                  </Link>
+                  </a>
                 </div>
                 <div className="product-badges product-badges-position product-badges-mrg">
                   <span className="hot">Hot</span>
@@ -331,10 +331,10 @@ export default function page() {
               </div>
               <div className="product-content-wrap">
                 <div className="product-category">
-                  <Link href="shop-grid-right">Bangles</Link>
+                  <a href="shop-grid-right">Bangles</a>
                 </div>
                 <h2 style={{ marginTop: "5px" }}>
-                  <Link href="#">Golden Bangles</Link>
+                  <a href="#">Golden Bangles</a>
                 </h2>
                 <div className="product-rate-cover">
                   <div className="product-rate d-inline-block">
@@ -346,7 +346,7 @@ export default function page() {
                 </div>
                 <div>
                   <span className="font-small text-muted">
-                    By <Link href="vendor-details-1">Shree Banaras Jewels</Link>
+                    By <a href="vendor-details-1">Shree Banaras Jewels</a>
                   </span>
                 </div>
                 <div className="product-card-bottom">
@@ -355,9 +355,9 @@ export default function page() {
                     <span className="old-price">$25.8</span>
                   </div>
                   <div className="add-cart">
-                    <Link className="add" href="shop-cart">
+                    <a className="add" href="shop-cart">
                       <i className="fi-rs-shopping-cart mr-5"></i>Add
-                    </Link>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -370,7 +370,7 @@ export default function page() {
             <div className="product-cart-wrap mb-30">
               <div className="product-img-action-wrap">
                 <div className="product-img product-img-zoom">
-                  <Link href="#">
+                  <a href="#">
                     <img
                       className="default-img"
                       src="/media/product/1-2.jpg"
@@ -381,7 +381,7 @@ export default function page() {
                       src="/media/product/1-2.jpg"
                       alt=""
                     />
-                  </Link>
+                  </a>
                 </div>
                 <div className="product-badges product-badges-position product-badges-mrg">
                   <span className="sale">Sale</span>
@@ -389,10 +389,10 @@ export default function page() {
               </div>
               <div className="product-content-wrap">
                 <div className="product-category">
-                  <Link href="shop-grid-right">Bangles</Link>
+                  <a href="shop-grid-right">Bangles</a>
                 </div>
                 <h2 style={{ marginTop: "5px" }}>
-                  <Link href="#">Golden Bangles</Link>
+                  <a href="#">Golden Bangles</a>
                 </h2>
                 <div className="product-rate-cover">
                   <div className="product-rate d-inline-block">
@@ -404,7 +404,7 @@ export default function page() {
                 </div>
                 <div>
                   <span className="font-small text-muted">
-                    By <Link href="vendor-details-1">Shree Banaras Jewels</Link>
+                    By <a href="vendor-details-1">Shree Banaras Jewels</a>
                   </span>
                 </div>
                 <div className="product-card-bottom">
@@ -413,9 +413,9 @@ export default function page() {
                     <span className="old-price">$25.8</span>
                   </div>
                   <div className="add-cart">
-                    <Link className="add" href="shop-cart">
+                    <a className="add" href="shop-cart">
                       <i className="fi-rs-shopping-cart mr-5"></i>Add
-                    </Link>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -428,7 +428,7 @@ export default function page() {
             <div className="product-cart-wrap mb-30">
               <div className="product-img-action-wrap">
                 <div className="product-img product-img-zoom">
-                  <Link href="#">
+                  <a href="#">
                     <img
                       className="default-img"
                       src="/media/product/1-2.jpg"
@@ -439,7 +439,7 @@ export default function page() {
                       src="/media/product/1-2.jpg"
                       alt=""
                     />
-                  </Link>
+                  </a>
                 </div>
                 <div className="product-badges product-badges-position product-badges-mrg">
                   <span className="best">20%</span>
@@ -447,10 +447,10 @@ export default function page() {
               </div>
               <div className="product-content-wrap">
                 <div className="product-category">
-                  <Link href="shop-grid-right">Bangles</Link>
+                  <a href="shop-grid-right">Bangles</a>
                 </div>
                 <h2 style={{ marginTop: "5px" }}>
-                  <Link href="#">Golden Bangles</Link>
+                  <a href="#">Golden Bangles</a>
                 </h2>
                 <div className="product-rate-cover">
                   <div className="product-rate d-inline-block">
@@ -462,7 +462,7 @@ export default function page() {
                 </div>
                 <div>
                   <span className="font-small text-muted">
-                    By <Link href="vendor-details-1">Shree Banaras Jewels</Link>
+                    By <a href="vendor-details-1">Shree Banaras Jewels</a>
                   </span>
                 </div>
                 <div className="product-card-bottom">
@@ -471,9 +471,9 @@ export default function page() {
                     <span className="old-price">$25.8</span>
                   </div>
                   <div className="add-cart">
-                    <Link className="add" href="shop-cart">
+                    <a className="add" href="shop-cart">
                       <i className="fi-rs-shopping-cart mr-5"></i>Add
-                    </Link>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -486,7 +486,7 @@ export default function page() {
             <div className="product-cart-wrap mb-30">
               <div className="product-img-action-wrap">
                 <div className="product-img product-img-zoom">
-                  <Link href="#">
+                  <a href="#">
                     <img
                       className="default-img"
                       src="/media/product/1-2.jpg"
@@ -497,7 +497,7 @@ export default function page() {
                       src="/media/product/1-2.jpg"
                       alt=""
                     />
-                  </Link>
+                  </a>
                 </div>
                 <div className="product-badges product-badges-position product-badges-mrg">
                   <span className="best">20%</span>
@@ -505,10 +505,10 @@ export default function page() {
               </div>
               <div className="product-content-wrap">
                 <div className="product-category">
-                  <Link href="shop-grid-right">Bangles</Link>
+                  <a href="shop-grid-right">Bangles</a>
                 </div>
                 <h2 style={{ marginTop: "5px" }}>
-                  <Link href="#">Golden Bangles</Link>
+                  <a href="#">Golden Bangles</a>
                 </h2>
                 <div className="product-rate-cover">
                   <div className="product-rate d-inline-block">
@@ -520,7 +520,7 @@ export default function page() {
                 </div>
                 <div>
                   <span className="font-small text-muted">
-                    By <Link href="vendor-details-1">Shree Banaras Jewels</Link>
+                    By <a href="vendor-details-1">Shree Banaras Jewels</a>
                   </span>
                 </div>
                 <div className="product-card-bottom">
@@ -529,9 +529,9 @@ export default function page() {
                     <span className="old-price">$25.8</span>
                   </div>
                   <div className="add-cart">
-                    <Link className="add" href="shop-cart">
+                    <a className="add" href="shop-cart">
                       <i className="fi-rs-shopping-cart mr-5"></i>Add
-                    </Link>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -541,9 +541,9 @@ export default function page() {
         <nav className="pagination">
           <ul className="page-numbers">
             <li>
-              <Link className="prev page-numbers" href="#">
+              <a className="prev page-numbers" href="#">
                 Previous
-              </Link>
+              </a>
             </li>
             <li>
               <span aria-current="page" className="page-numbers current">
@@ -551,19 +551,19 @@ export default function page() {
               </span>
             </li>
             <li>
-              <Link className="page-numbers" href="#">
+              <a className="page-numbers" href="#">
                 2
-              </Link>
+              </a>
             </li>
             <li>
-              <Link className="page-numbers" href="#">
+              <a className="page-numbers" href="#">
                 3
-              </Link>
+              </a>
             </li>
             <li>
-              <Link className="next page-numbers" href="#">
+              <a className="next page-numbers" href="#">
                 Next
-              </Link>
+              </a>
             </li>
           </ul>
         </nav>
@@ -572,9 +572,9 @@ export default function page() {
           <div className={`${showFilterMenu ? "active" : ""} sidebar-overlay`}></div>
           <div className="sidebar-wraper">
             <div className="sidebar-close-wraper">
-              <Link className="sidebar-close" href="#" onClick={()=>setShowFilterMenu(false)}>
+              <a className="sidebar-close" href="#" onClick={()=>setShowFilterMenu(false)}>
                 <i className="hgi-stroke hgi-multiplication-sign" />
-              </Link>
+              </a>
             </div>
 
             <div className="widget widget-collapsible" >
@@ -630,7 +630,7 @@ export default function page() {
                 </li>
                 <li>
                   <input type="checkbox" id="size-extra-large" />
-                  <label htmlFor="size-extra-large">ExtrLink Large</label>
+                  <label htmlFor="size-extra-large">Extra Large</label>
                 </li>
               </ul>
             </div>
