@@ -39,7 +39,7 @@ export default function SixthComponent() {
                 <img
                   width="690"
                   height="498"
-                  src="media/slider/cscc.jpeg"
+                  src="/media/slider/cscc.jpeg"
                   alt="intro"
                 />
               </div>

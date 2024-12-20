@@ -36,14 +36,14 @@ export default function FifthComponent() {
                               <img
                                 width="600"
                                 height="600"
-                                src="media/fifth-component/pro-m-01.jpeg"
+                                src="/media/fifth-component/pro-m-01.jpeg"
                                 className="post-image"
                                 alt=""
                               />
                               <img
                                 width="600"
                                 height="600"
-                                src="media/fifth-component/pro-01.jpeg"
+                                src="/media/fifth-component/pro-01.jpeg"
                                 className="hover-image back"
                                 alt=""
                               />
@@ -113,14 +113,14 @@ export default function FifthComponent() {
                               <img
                                 width="600"
                                 height="600"
-                                src="media/fifth-component/pro-m-02.jpeg"
+                                src="/media/fifth-component/pro-m-02.jpeg"
                                 className="post-image"
                                 alt=""
                               />
                               <img
                                 width="600"
                                 height="600"
-                                src="media/fifth-component/pro-02.jpeg"
+                                src="/media/fifth-component/pro-02.jpeg"
                                 className="hover-image back"
                                 alt=""
                               />
@@ -197,14 +197,14 @@ export default function FifthComponent() {
                               <img
                                 width="600"
                                 height="600"
-                                src="media/fifth-component/pro-m-03.jpeg"
+                                src="/media/fifth-component/pro-m-03.jpeg"
                                 className="post-image"
                                 alt=""
                               />
                               <img
                                 width="600"
                                 height="600"
-                                src="media/fifth-component/pro-03.jpeg"
+                                src="/media/fifth-component/pro-03.jpeg"
                                 className="hover-image back"
                                 alt=""
                               />
@@ -272,14 +272,14 @@ export default function FifthComponent() {
                               <img
                                 width="600"
                                 height="600"
-                                src="media/fifth-component/pro-m-04.jpeg"
+                                src="/media/fifth-component/pro-m-04.jpeg"
                                 className="post-image"
                                 alt=""
                               />
                               <img
                                 width="600"
                                 height="600"
-                                src="media/fifth-component/pro-04.jpeg"
+                                src="/media/fifth-component/pro-04.jpeg"
                                 className="hover-image back"
                                 alt=""
                               />

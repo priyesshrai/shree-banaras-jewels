@@ -45,7 +45,7 @@ export default function Testimonial() {
                           <img
                             width="110"
                             height="110"
-                            src="media/testimonial/1.jpg"
+                            src="/media/testimonial/1.jpg"
                             alt=""
                           />
                         </div>
@@ -78,7 +78,7 @@ export default function Testimonial() {
                           <img
                             width="110"
                             height="110"
-                            src="media/testimonial/2.jpg"
+                            src="/media/testimonial/2.jpg"
                             alt=""
                           />
                         </div>
@@ -111,7 +111,7 @@ export default function Testimonial() {
                           <img
                             width="110"
                             height="110"
-                            src="media/testimonial/3.jpg"
+                            src="/media/testimonial/3.jpg"
                             alt=""
                           />
                         </div>
@@ -142,7 +142,7 @@ export default function Testimonial() {
                           <img
                             width="110"
                             height="110"
-                            src="media/testimonial/4.jpg"
+                            src="/media/testimonial/4.jpg"
                             alt=""
                           />
                         </div>

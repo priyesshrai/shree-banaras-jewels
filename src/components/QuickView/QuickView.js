@@ -28,28 +28,28 @@ export default function QuickView() {
                             >
                               <div className="img-thumbnail slick-slide">
                                 <a
-                                  href="media/product/3.jpg"
+                                  href="/media/product/3.jpg"
                                   className="image-scroll"
                                   title=""
                                 >
                                   <img
                                     width="900"
                                     height="900"
-                                    src="media/product/3.jpg"
+                                    src="/media/product/3.jpg"
                                     alt=""
                                   />
                                 </a>
                               </div>
                               <div className="img-thumbnail slick-slide">
                                 <a
-                                  href="media/product/3-2.jpg"
+                                  href="/media/product/3-2.jpg"
                                   className="image-scroll"
                                   title=""
                                 >
                                   <img
                                     width="900"
                                     height="900"
-                                    src="media/product/3-2.jpg"
+                                    src="/media/product/3-2.jpg"
                                     alt=""
                                   />
                                 </a>

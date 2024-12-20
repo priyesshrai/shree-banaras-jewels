@@ -103,7 +103,7 @@ export default function ForthComponent() {
                 className="hover-opacity"
                 width="820"
                 height="674"
-                src="media/third-component/bann.jpeg"
+                src="/media/third-component/bann.jpeg"
                 alt="intro"
               />
             </a>

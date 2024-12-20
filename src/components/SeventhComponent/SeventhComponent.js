@@ -17,7 +17,7 @@ export default function SeventhComponent() {
                           <img
                             width="856"
                             height="496"
-                            src="media/seventh-component/01.jpeg"
+                            src="/media/seventh-component/01.jpeg"
                             alt="Banner Image"
                           />
                         </a>
@@ -51,7 +51,7 @@ export default function SeventhComponent() {
                           <img
                             width="856"
                             height="496"
-                            src="media/seventh-component/02.jpeg"
+                            src="/media/seventh-component/02.jpeg"
                             alt="Banner Image"
                           />
                         </a>

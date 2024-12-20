@@ -31,7 +31,7 @@ export default function TopCategories() {
                           <img
                             width="258"
                             height="258"
-                            src="media/top-categories/cat-01.jpg"
+                            src="/media/top-categories/cat-01.jpg"
                             alt="Bracelets"
                           />
                         </div>
@@ -51,7 +51,7 @@ export default function TopCategories() {
                           <img
                             width="258"
                             height="258"
-                            src="media/top-categories/cat-02.jpeg"
+                            src="/media/top-categories/cat-02.jpeg"
                             alt="Earrings"
                           />
                         </div>
@@ -71,7 +71,7 @@ export default function TopCategories() {
                           <img
                             width="258"
                             height="258"
-                            src="media/top-categories/cat-03.jpeg"
+                            src="/media/top-categories/cat-03.jpeg"
                             alt="Earrings"
                           />
                         </div>
@@ -91,7 +91,7 @@ export default function TopCategories() {
                           <img
                             width="258"
                             height="258"
-                            src="media/top-categories/cat-04.jpg"
+                            src="/media/top-categories/cat-04.jpg"
                             alt="Pendants"
                           />
                         </div>
@@ -111,7 +111,7 @@ export default function TopCategories() {
                           <img
                             width="258"
                             height="258"
-                            src="media/top-categories/cat-05.jpg"
+                            src="/media/top-categories/cat-05.jpg"
                             alt="Gold Rings"
                           />
                         </div>

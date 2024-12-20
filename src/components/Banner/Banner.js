@@ -23,12 +23,12 @@ export default function Banner() {
                 <img
                   width="1920"
                   height="781"
-                  src="media/slider/slider-01.jpeg"
+                  src="/media/slider/slider-01.jpeg"
                   alt="Image Slider"
                   className="mob-hid"
                 />
                 <img
-                  src="media/slider/mob-slider-01.jpg"
+                  src="/media/slider/mob-slider-01.jpg"
                   alt="Image Slider"
                   className="mob-show"
                 />
@@ -51,12 +51,12 @@ export default function Banner() {
                 <img
                   width="1920"
                   height="781"
-                  src="media/slider/slider-02.jpeg"
+                  src="/media/slider/slider-02.jpeg"
                   alt="Image Slider"
                   className="mob-hid"
                 />
                 <img
-                  src="media/slider/mob-slider-02.jpg"
+                  src="/media/slider/mob-slider-02.jpg"
                   alt="Image Slider"
                   className="mob-show"
                 />
@@ -82,12 +82,12 @@ export default function Banner() {
                 <img
                   width="1920"
                   height="781"
-                  src="media/slider/slider-03.jpeg"
+                  src="/media/slider/slider-03.jpeg"
                   alt="Image Slider"
                   className="mob-hid"
                 />
                 <img
-                  src="media/slider/mob-slider-03.jpg"
+                  src="/media/slider/mob-slider-03.jpg"
                   alt="Image Slider"
                   className="mob-show"
                 />

@@ -22,7 +22,7 @@ export default function WishlistPopUp() {
                       <img
                         width="600"
                         height="600"
-                        src="media/product/3.jpg"
+                        src="/media/product/3.jpg"
                         alt=""
                       />
                     </a>
@@ -52,7 +52,7 @@ export default function WishlistPopUp() {
                       <img
                         width="600"
                         height="600"
-                        src="media/product/4.jpg"
+                        src="/media/product/4.jpg"
                         alt=""
                       />
                     </a>

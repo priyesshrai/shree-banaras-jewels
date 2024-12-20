@@ -18,7 +18,7 @@ export default function ThirdComponent() {
                           <img
                             width="630"
                             height="457"
-                            src="media/third-component/01.jpeg"
+                            src="/media/third-component/01.jpeg"
                             alt="Banner Image"
                           />
                         </a>
@@ -47,7 +47,7 @@ export default function ThirdComponent() {
                           <img
                             width="450"
                             height="457"
-                            src="media/third-component/02.jpeg"
+                            src="/media/third-component/02.jpeg"
                             alt="Banner Image"
                           />
                         </a>
@@ -76,7 +76,7 @@ export default function ThirdComponent() {
                           <img
                             width="630"
                             height="457"
-                            src="media/third-component/03.jpeg"
+                            src="/media/third-component/03.jpeg"
                             alt="Banner Image"
                           />
                         </a>

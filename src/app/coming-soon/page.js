@@ -15,7 +15,7 @@ export default function page() {
                 <div className="col-lg-4 col-md-6 col-6">
                   <div className="img-con">
 
-                  <img src="media/coming-soon/coming-soon.svg" alt="" />
+                  <img src="/media/coming-soon/coming-soon.svg" alt="" />
                   </div>
                 </div>
               </div>

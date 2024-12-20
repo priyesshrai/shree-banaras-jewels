@@ -161,7 +161,7 @@ export default function Footer() {
                       <img
                         width="309"
                         height="32"
-                        src="media/payments.png"
+                        src="/media/payments.png"
                         alt=""
                       />
                     </div>
