@@ -569,7 +569,7 @@ export default function page() {
         </nav>
 
         <aside className={`${showFilterMenu ? "active" : ""} sidebar shop-sidebar left-sidebar sticky-sidebar-wrapper`}>
-          <div className={`${showFilterMenu ? "active" : ""} sidebar-overlay`}></div>
+          <div className={`${showFilterMenu ? "active" : ""} sidebar-overlay`} onClick={()=>setShowFilterMenu(false)}></div>
           <div className="sidebar-wraper">
             <div className="sidebar-close-wraper">
               <a className="sidebar-close" href="#" onClick={()=>setShowFilterMenu(false)}>
