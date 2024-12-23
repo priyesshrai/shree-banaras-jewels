@@ -4,7 +4,7 @@ const Footer = dynamic(() => import("@/components/Footer/Footer"), {
 const Header = dynamic(() => import("@/components/Header/Header"), {
   loading: () => <Loader />,
 });
-import Loader from "@/components/Loader";
+
 const QuickView = dynamic(() => import("@/components/QuickView/QuickView"), {
   loading: () => <Loader />,
 });
@@ -14,6 +14,7 @@ const WishlistPopUp = dynamic(
     loading: () => <Loader />,
   }
 );
+import Loader from "@/components/Loader/Loader";
 import dynamic from "next/dynamic";
 import Script from "next/script";
 

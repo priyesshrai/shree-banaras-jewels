@@ -55,7 +55,7 @@ export default function Footer() {
                     </ul>
                   </div>
                 </div>
-                <div className="col-lg-3 col-md-6 column-2">
+                <div className="col-lg-3 col-md-6 col-6">
                   <div className="block block-menu">
                     <h2 className="block-title">Useful Links</h2>
                     <div className="block-content">
@@ -82,7 +82,7 @@ export default function Footer() {
                     </div>
                   </div>
                 </div>
-                <div className="col-lg-3 col-md-6 column-3">
+                <div className="col-lg-3 col-md-6 col-6">
                   <div className="block block-menu">
                     <h2 className="block-title">About Us</h2>
                     <div className="block-content">
@@ -109,7 +109,7 @@ export default function Footer() {
                     </div>
                   </div>
                 </div>
-                <div className="col-lg-3 col-md-6 column-4">
+                <div className="col-lg-3 col-md-6 col-6">
                   <div className="block block-menu">
                     <h2 className="block-title">Catalog</h2>
                     <div className="block-content">

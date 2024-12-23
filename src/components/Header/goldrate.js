@@ -16,7 +16,7 @@ export const useGoldRate = () => {
         });
         setGoldData(response.data);
       } catch (error) {
-        console.error("Error fetching gold data:", error);
+        console.log("Error fetching gold data:", error);
         setError(error);
       }
     };

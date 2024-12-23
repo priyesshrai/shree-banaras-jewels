@@ -1,0 +1,99 @@
+.loader-container {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.loader-container img {
+  position: absolute;
+  top: 46%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  width: 25px;
+  height: 25px;
+  z-index: 2;
+}
+
+.loader-circle {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #b6b6b6;
+}
+
+.loader-circle::after {
+  content: "";
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #3a3a3a;
+  opacity: 0;
+  animation: fadeEffect 1.5s infinite;
+}
+
+.loader-circle:nth-child(1)::after {
+  animation-delay: 0s;
+}
+
+.loader-circle:nth-child(2)::after {
+  animation-delay: 0.125s;
+}
+
+.loader-circle:nth-child(3)::after {
+  animation-delay: 0.25s;
+}
+
+.loader-circle:nth-child(4)::after {
+  animation-delay: 0.375s;
+}
+
+.loader-circle:nth-child(5)::after {
+  animation-delay: 0.5s;
+}
+
+.loader-circle:nth-child(6)::after {
+  animation-delay: 0.625s;
+}
+
+.loader-circle:nth-child(7)::after {
+  animation-delay: 0.75s;
+}
+
+.loader-circle:nth-child(8)::after {
+  animation-delay: 0.875s;
+}
+
+.loader-circle:nth-child(9)::after {
+  animation-delay: 1s;
+}
+
+.loader-circle:nth-child(10)::after {
+  animation-delay: 1.125s;
+}
+
+.loader-circle:nth-child(11)::after {
+  animation-delay: 1.25s;
+}
+
+.loader-circle:nth-child(12)::after {
+  animation-delay: 1.375s;
+}
+
+@keyframes fadeEffect {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

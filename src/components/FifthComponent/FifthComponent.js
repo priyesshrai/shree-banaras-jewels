@@ -167,9 +167,7 @@ export default function FifthComponent() {
                               <span className="count">(1 review)</span>
                             </div>
                             <h3 className="product-title">
-                              <a href="shop-details.html">
-                              Dangle Earrings
-                              </a>
+                              <a href="shop-details.html">Dangle Earrings</a>
                             </h3>
                             <span className="price">
                               <del aria-hidden="true">
@@ -326,9 +324,7 @@ export default function FifthComponent() {
                               <span className="count">(2 reviews)</span>
                             </div>
                             <h3 className="product-title">
-                              <a href="shop-details.html">
-                              Pendent Set
-                              </a>
+                              <a href="shop-details.html">Pendent Set</a>
                             </h3>
                             <span className="price">
                               <del aria-hidden="true">
@@ -343,7 +339,6 @@ export default function FifthComponent() {
                       </div>
                     </div>
                   </div>
-
                 </div>
               </div>
             </div>

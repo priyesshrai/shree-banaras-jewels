@@ -1,7 +1,6 @@
 import dynamic from "next/dynamic";
 import React from "react";
-import Loader from "@/components/Loader"; // Import Loader before usage
-import Testimonial from "@/components/Testimonial/Testimonial";
+import Loader from "@/components/Loader/Loader";
 
 const FifthComponent = dynamic(
   () => import("@/components/FifthComponent/FifthComponent"),
@@ -56,7 +55,6 @@ export default function page() {
       <FifthComponent />
       <SixthComponent />
       <SeventhComponent />
-      {/* <Testimonial/> */}
     </>
   );
 }
