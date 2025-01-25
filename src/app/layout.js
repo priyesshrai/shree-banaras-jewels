@@ -17,6 +17,8 @@ const WishlistPopUp = dynamic(
 import Loader from "@/components/Loader/Loader";
 import dynamic from "next/dynamic";
 import Script from "next/script";
+// import NextTopLoader from "nextjs-toploader";
+import Providers from "@/components/Nprogress";
 
 export const metadata = {
   title: "Shree Banaras Jewels, Varanasi, Uttar Pradesh, India",
@@ -64,7 +66,8 @@ export default function RootLayout({ children }) {
             <div id="main-content" className="main-content">
               <div id="primary" className="content-area">
                 <div id="content" className="site-content" role="main">
-                  {children}
+                  {/* <NextTopLoader showSpinner={false} height={5} /> */}
+                  <Providers>{children}</Providers>
                 </div>
               </div>
             </div>

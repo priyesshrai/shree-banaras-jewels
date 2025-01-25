@@ -6241,7 +6241,7 @@ body i[class~="slick-arrow"][class~="fa-angle-right"] {
 }
 .site-header,
 [class~="site-navigation"] ul > li[class~="level-0"] [class~="sub-menu"] {
-  z-index: 999999;
+  z-index: 99;
 }
 [class~="form-login-register"]
   [class~="box-form-login"]
@@ -35360,8 +35360,8 @@ body[class~="home"][class~="title-6"]
 .product-cart-wrap {
   position: relative;
   background-color: #fff;
-  border: 1px solid #ececec;
-  border-radius: 15px;
+  border: 1px solid #adadad;
+  border-radius: 25px;
   overflow: hidden;
   height: 100%;
 
@@ -35375,7 +35375,7 @@ body[class~="home"][class~="title-6"]
     background-color: #fff;
     overflow: hidden;
     max-height: 320px;
-    padding: 25px 25px 0 25px;
+    padding: 15px 15px 0 15px;
     .product-action-1 {
       background-color: #fff;
       border-radius: 5px;
@@ -35775,6 +35775,8 @@ body[class~="home"][class~="title-6"]
   color: white;
   border-radius: 8px;
   transition: transform 0.2s linear;
+  z-index: 99999;
+  position: relative;
 
   &:active {
     transform: scale(0.8);
@@ -35828,6 +35830,7 @@ body[class~="home"][class~="title-6"]
         justify-content: center;
         background-color: #020101;
         color: white;
+        cursor: pointer;
         z-index: 999;
 
         i {
@@ -36027,4 +36030,58 @@ body[class~="home"][class~="title-6"]
 #site-footer .block-content ul li a:hover::after{
   width: 100%;
   left: 0;
+}
+
+/* Make sure the arrows are visible */
+.slick-prev, .slick-next {
+  font-size: 24px; /* Adjust the size of the arrows */
+  color: #000; /* Set the arrow color */
+  z-index: 1; /* Ensure the arrows are on top of the slider */
+  background-color: transparent; /* Remove any background */
+  border: none; /* Remove any border */
+}
+
+.slick-prev {
+  left: -40px; /* Adjust the left position of the previous arrow */
+}
+
+.slick-next {
+  right: -40px; /* Adjust the right position of the next arrow */
+}
+
+/* Optional: Add hover effects for the arrows */
+.slick-prev:hover, .slick-next:hover {
+  color: #fff; /* Change arrow color on hover */
+}
+
+.product-title a{ 
+  display: inline-block;
+}
+
+.product-cart-wrap:hover .default-img{
+  opacity: 0;
+  visibility: hidden;
+}
+
+
+.other-dets{
+  position: relative;
+  width:100%;
+  margin-top: 20px;
+
+  ul{
+    margin: 0;
+    padding: 0;
+
+    li>strong{
+      font-size: 16px;
+      line-height: 1;
+      color: #323232;
+    }
+
+    li>span{
+      font-size: 15px;
+      line-height: 1;
+    }
+  }
 }
